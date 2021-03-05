@@ -1,3 +1,9 @@
+//TIME COMPLEXITY
+// O(n^2)
+// potentially is better than bubble if you want to minimize the swaps
+
+//PSEUDOCODE
+
 // Store the first element as the smallest value you've seen so far.(store the index)
 // Compare this item to the next item in the array until you find a smaller number.
 // If a smaller number is found, designate that smaller number to be the new "minimum" and
@@ -13,10 +19,10 @@ const swap = (arr, idx1, idx2) => {
 
 const selectionSort = (arr) => {
   for (let i = 0; i < arr.length; i++) {
-    let lowest = i;
+    let lowestElement = i;
     for (let j = i + 1; j < arr.length; j++) {
-      if (arr[j] < arr[lowest]) lowest = j;
-      if (i !== lowest) swap(arr, i, lowest);
+      if (arr[j] < arr[lowestElement]) lowestElement = j;
+      if (i !== lowestElement) swap(arr, i, lowestElement);
     }
   }
   return arr;
