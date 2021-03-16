@@ -1,3 +1,6 @@
+//Worst case O(n^2)
+//if the data is almost all sorted
+
 const insertionSort = (arr) => {
   //starting from index 1 since index 0 is already sorted
   for (let i = 1; i < arr.length; i++) {
