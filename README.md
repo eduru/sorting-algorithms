@@ -6,3 +6,8 @@ Bubble Sort
 <br>
 https://eduru.medium.com/sorting-algorithms-bubble-sort-a49ab9de1d7f
 <br>
+
+Selection Sort
+<br>
+https://eduru.medium.com/sorting-algorithms-selection-sort-e14651a1a262
+<br>
